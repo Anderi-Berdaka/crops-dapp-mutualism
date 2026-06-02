@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APT | Decentralized Mutual Aid</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 20px; }
+        .dashboard { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .header { border-bottom: 2px solid #5d5fef; padding-bottom: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
+        .status-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .card { padding: 20px; border-radius: 10px; background: #fafafa; border: 1px solid #eaeaea; text-align: center; }
+        .card h3 { margin: 0; color: #666; font-size: 14px; text-transform: uppercase; }
+        .card p { font-size: 24px; font-weight: bold; margin: 10px 0; color: #5d5fef; }
+        button { background: #5d5fef; color: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: bold; transition: background 0.3s; }
+        button:hover { background: #4749d1; }
+        #accountArea { font-size: 12px; color: #888; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <div class="header">
+            <div>
+                <h1>APT Pension Reserve</h1>
+                <p>Old Believer Mutual Aid System</p>
+            </div>
+            <button id="connectBtn" onclick="connectWallet()">Connect Wallet</button>
+        </div>
+
+        <div id="accountArea">Not Connected</div>
+
+        <div class="status-grid">
+            <div class="card">
+                <h3>Total Reserve (DePIN Revenue)</h3>
+                <p id="reserveAmount">0.00 APT</p>
+            </div>
+            <div class="card">
+                <h3>My Current Entitlement</h3>
+                <p id="userShare">0.00 APT</p>
+            </div>
+            <div class="card">
+                <h3>Community Soul Status</h3>
+                <p id="soulStatus">Checking...</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px; text-align: center;">
+            <button onclick="claimPension()" style="background: #28a745;">Claim Monthly Distribution</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.umd.min.js" type="application/javascript"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>

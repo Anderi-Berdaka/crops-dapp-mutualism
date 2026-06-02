@@ -1,0 +1,14 @@
+{
+  "name": "blockchain-test",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.66.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1",
+    "dotenv": "^17.4.2"
+  }
+}
