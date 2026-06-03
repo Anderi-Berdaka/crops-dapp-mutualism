@@ -162,9 +162,9 @@ APT-Mutual-Plurality-Network/
 ├── contracts/
 │   ├── APT_Protocol_Hub.sol
 │   ├── APT_SoulRegistry.sol
+│   ├── APT_VestingVault.sol
 │   ├── APT_V2_Core.sol
-│   ├── APT_Oracle.sol
-│   └── APT_VestingVault.sol
+│   └── APT_Oracle.sol
 ├── scripts/
 │   └── deploy.cjs
 └── frontend/
