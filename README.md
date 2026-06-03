@@ -6,13 +6,13 @@ CROPS principles-driven APT **'Mutual Plurality'** Network System: a **Decentral
 
 The contemporary debate surrounding Ethereum’s trajectory represents one of the most critical cultural and architectural rifts in the history of decentralized networks.
 
-On one side stands the newly re-crystallized **CROPS** agenda: **Censorship resistance, Resilience against capture, Open-source development, Privacy, and Security**. This framework marks a deliberate return to cypherpunk fundamentals. It explicitly prioritizes network self-sovereignty and architectural decentralization over raw transaction speed, choosing to reject compromise with low-fee, high-throughput, centralized competitors.
+On one side stands the newly re-crystallized **CROPS** agenda: ***Censorship resistance, Resilience against capture, Open-source development, Privacy, and Security***. This framework marks a deliberate **return to cypherpunk fundamentals**. It explicitly prioritizes **network self-sovereignty** and **architectural decentralization** over raw transaction speed, choosing to reject compromise with low-fee, high-throughput, centralized competitors.
 
 Conversely, traditional financial institutions, asset managers (such as BlackRock), and corporate entities increasingly treat Ethereum as mere "financial middleware." To them, the public ledger is an optimization tool – a base layer to bridge internal, permissioned networks where the primary metrics are liquidity expansion, scalability, immediate price discovery, and strict compliance-driven regulatory controls.
 
-This project rejects the reduction of Ethereum to corporate middleware. Instead, it weaponizes the protocol to construct alternative, horizontal social infrastructures.
+This project rejects the reduction of Ethereum to corporate middleware. Instead, it weaponizes the protocol **to construct alternative, horizontal social infrastructures**.
 
-## The Modern Mutualist Paradigm: Contract vs. Law
+## The Modern Mutualist Paradigm: Voluntary Contract vs. Top-Down Law
 
 The ideological roots of smart contracts do not belong to modern financial engineering; they inherit the political philosophy of Pierre-Joseph Proudhon. Proudhon famously distinguished between two structural forces:
 
@@ -24,7 +24,7 @@ By translating Proudhon’s mutualism into self-executing code, this architectur
 
 ## Plurality and Decentralized AI Governance
 
-This protocol integrates the paradigm of Plurality, a technological framework that recognizes, preserves, and empowers cooperation across diverse social, cultural, religious, and relational contexts.
+This protocol integrates the paradigm of Plurality, a technological framework that recognizes, preserves, and empowers **cooperation across diverse social, cultural, religious, and relational contexts**.
 
 In an era dominated by centralized, corporate AI models, this project utilizes decentralized Web3 identity structures to prodive an alternative. By binding pluralistic identity to shared infrastructure, the project establishes a framework where machine intelligence is governed horizontally by the community it serves, rather than by centralized corporate data monopolies.
 
@@ -41,11 +41,11 @@ In an era dominated by centralized, corporate AI models, this project utilizes d
 
 **System Evolution: From V1 (Legacy) to V2 (Reinforced)**
 
-This architecture is a reinforced evolution of a mutual aid framework originally designed for localized, trust-centric communities (such as traditional Old Believer mutual aid structures).
+This architecture represents a reinforced evolution of a mutual aid framework – originally designed for localized, trust-centric communities like traditional Old Believer structures – that I engineered during my [previous project](https://github.com/Anderi-Berdaka/desoc-plurality-mutual-aid).
 
 **The V1 Vulnerability**: In the legacy prototype, the `VestingVault` operated independently of the identity ledger. When its withdrawal mechanism was triggered, it evaluated a standard single-beneficiary lock, defaulting control to a static deployer/admin address. This created a centralized vector for institutional capture.
 
-**The V2 Architecture**: The reinforced iteration implements a true Plural System. The `VestingVault` is cryptographically bound to the identity ledger. The withdrawal mechanism dynamically verifies the caller's identity status against the contract state. It shifts the model from a single-beneficiary risk to an open ecosystem where any authenticated member can directly claim allocations from a unified reserve.
+**The V2 Architecture**: The reinforced iteration implements a true **Plural System**. The `VestingVault` is cryptographically bound to the identity ledger. The withdrawal mechanism dynamically verifies the caller's identity status against the contract state. It shifts the model from a single-beneficiary risk to an open ecosystem where any authenticated member can directly claim allocations from a unified reserve.
 
 ## Core Subsystem Engines
 
@@ -53,21 +53,39 @@ This architecture is a reinforced evolution of a mutual aid framework originally
 
 Following the structural frameworks outlined in the Finding Web3's Soul manifesto by E. Glen Weyl, Puja Ohlhaver, and Vitalik Buterin, the protocol establishes a non-transferable identity ledger inside the `APT_SoulRegistry`.
 
-**Privacy-First Mapping**: Cryptographic keys are mapped to relational social attributes without binding real-world names or identities, maintaining localized isolation.
+**- Privacy-First Mapping**: Cryptographic keys are mapped to relational social attributes without binding real-world names or identities, maintaining localized isolation.
 
-**Immutable Standing**: Once a community tier is cryptographically assigned on-chain, it cannot be blocked, frozen, or manipulated by external or unauthorized entities.
+**- Immutable Standing**: Once a community tier is cryptographically assigned on-chain, it cannot be blocked, frozen, or manipulated by external or unauthorized entities.
 
 **2. Multi-Party Social Recovery (Security)**
 
-To completely eliminate the risk of single-point-of-failure private seed phrases, the identity layer replaces standard master seeds with a multi-party human trust network.
+To completely eliminate the risk of single-point-of-failure private seed phrases, the identity layer replaces standard master seeds with a **multi-party human trust network**.
 
-**Threshold Nodes**: Users can pre-designate an alternative peer circle directly to contract storage.
+**- Threshold Nodes**: Users can pre-designate an alternative peer circle directly to contract storage.
 
-**Cryptographic Guardrails**: A minimum of **3 human trust network nodes** is strictly required to execute identity migration or restore an individual's standing within the community.
+**- Cryptographic Guardrails**: A minimum of **3 human trust network nodes** is strictly required to execute identity migration or restore an individual's standing within the community.
 
 **3. Tokenized AI Computation Layer (Open Source)**
 
 The community owns and operates a decentralized hardware cluster, allowing participants to exchange computing power. The tokenization engine converts raw hardware processing metrics into protocol emissions, split automatically via smart contracts.
+
+The architecture integrates asynchronous AI telemetry verification with a decoupled token emission settlement engine. 
+
+**- Asynchronous AI Telemetry Verification**
+
+AI Telemetry: This is the data showing what an AI did. It tracks things like how much computing power it used, what answers it gave, or if it followed the rules.
+
+Verification: Checking this data to prove the AI actually did the work correctly and honestly.
+
+Asynchronous: Doing this check in the background. The system does not freeze or wait around while the check happens. 
+
+**- Decoupled Token Emission Settlement Engine**
+
+Token Emission: Creating and handing out digital assets, crypto tokens, or reward points.
+
+Settlement Engine: The machine or code that finalizes the payout and updates the balances.
+
+Decoupled: Completely separated. The payout machine and the AI work machine run on two totally different tracks. If one breaks, the other keeps running. 
 
 ## Graduated Participation Framework
 
@@ -135,3 +153,21 @@ The current build maintains a 100% verified tracking log across the browser-nati
 | **APT_V2_Core** | `0x002194Aa87fB4B93eD69Ec144940d07266566cf7` | [View on Etherscan](https://sepolia.etherscan.io/address/0x002194Aa87fB4B93eD69Ec144940d07266566cf7#code) |
 | **APT_Oracle** | `0x794023747629d5b2D4A84b0fDC11954E8D7AC7a0` | [View on Etherscan](https://sepolia.etherscan.io/address/0x794023747629d5b2D4A84b0fDC11954E8D7AC7a0#code) |
 
+## Repository Content
+```text
+APT-Mutual-Plurality-Network/
+├── package.json     
+├── hardhat.config.cjs
+├── README.md
+├── contracts/
+│   ├── APT_Protocol_Hub.sol
+│   ├── APT_SoulRegistry.sol
+│   ├── APT_V2_Core.sol
+│   ├── APT_Oracle.sol
+│   └── APT_VestingVault.sol
+├── scripts/
+│   └── deploy.cjs
+└── frontend/
+    ├── index.html
+    └── app.js
+```
